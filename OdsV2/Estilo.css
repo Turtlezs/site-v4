@@ -1,0 +1,29 @@
+button{
+    display: flex;
+    padding: 17px 40px;
+    border-radius: 50px;
+    border: 0;
+    background-color: rgb(83, 215, 22);
+    box-shadow: #0000 0 0 8px;
+    letter-spacing: 1,5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: all .5s ease;
+
+}
+
+button:hover{
+letter-spacing: 3px;
+background-color: orangered;
+color: black;
+box-shadow: orangered 0px 7px 29px 0px;
+}
+button:active {
+    letter-spacing: 3px;
+    background-color: orangered;
+    color: black;
+    box-shadow: orangered;
+    transform: translateY(10px);
+    transition: 100ms;
+}
+
